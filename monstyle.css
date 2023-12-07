@@ -1,0 +1,170 @@
+@font-face{
+	font-family: 'DancingScript';
+	src: url('polices/DancingScript-Regular.ttf');
+}
+body{
+	width: 100%;
+}
+nav{
+	text-align: center;
+	
+}
+
+nav li{
+   display:inline-block;
+}
+nav a{
+   text-decoration: none;
+   text-transform: uppercase;
+   color: gray;
+   margin-left: 15px;
+}
+a:hover{
+	background: rgb(34,34,34);
+	padding: 10px;
+	color: #d5c3a0;
+
+}
+
+
+#nom_boite{
+	color: #e5989b;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.banner{
+	background: url('images/12.webp');
+	height: 620px;
+	position: relative;
+	width: 90%;
+	opacity: 0.8;
+	
+}
+#slogant1,#slogant2{
+	font-family: 'DancingScript',sans-serif;
+	background: rgb(34, 34, 34);
+	position: absolute;
+	left: 30%;
+	top: 50%;
+	color: #d5c3a0;
+	padding: 20px;
+	
+}
+#slogant2{
+	top: 70%;
+	left: 40%;
+}
+.titre{
+	font-family: 'DancingScript';
+	font-size: 60px;
+	color: #d5c3a0;
+    text-align: center;
+}
+article, aside{
+	display: inline-block;
+	text-align: justify;
+	vertical-align: top;
+}
+
+article{
+	color: rgba(51,51,51,0.75);
+	font-size: 20px;
+	width: 60%;
+	margin-right: 50px;
+	margin-left: 30px;
+}
+article #palmier{
+	float: right;
+}
+aside{
+	background-color: #d5c3a0;
+	color: #555b6e;
+	left: 65%;
+	margin-top: -25%;
+	padding: 50px;
+	height: 30%;
+	width:30% ;
+	text-align: center;
+	position: relative;
+	font-size: 20px;
+}
+.boutton_transparent{
+	border: white solid;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+}
+.icones1,.icones2{
+	width: 370px;
+	height: 370px;
+
+
+}
+#why-us h1{
+	text-align: center;
+}
+#why-us p{
+   text-align: center;
+}
+#our-pack h1{
+	text-align: center;
+}
+#our-pack h4{
+	text-align: center;
+}
+#why-us{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-evenly;
+	flex-wrap: nowrap;
+}
+#our-pack{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+#our-pack img{
+	border-radius: 50px;
+}
+#formulaire{
+	width: 50%;
+	margin: auto;
+}
+#formulaire input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 30px;
+	background-color: rgba(0,0,0,0.03);
+	color: #7a7a7a;
+	font-size: 15px;
+	border: none;
+}
+.boutton_contact{
+	text-transform: uppercase;
+	color:#d5c3a0 ;
+	background-color: rgb(34,34,34);
+	padding: 20px;
+
+}
+form p{
+	text-align: center;
+}
+
+footer{
+	background-color: rgb(34,34,34);
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+footer-left{
+	border: 1px solid gray;
+	width: 700px;
+	height: 200px;
+	margin-top:6%;
+
+}
+footer-left:hover{
+	border: 1px solid #d5c3a0;
+}
+
